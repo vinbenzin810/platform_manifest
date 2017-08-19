@@ -17,7 +17,8 @@
            remote="github"
            sync-c="true"
            sync-j="4" />
-
+  
+  <project path=”android” name="luzifer/android" />
   <project path="build" name="SlimRoms/android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
